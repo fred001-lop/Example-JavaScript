@@ -35,3 +35,12 @@ body{
     outline: none;
     box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.4);
 }
+
+.tab-content{
+    background: #fff;
+    border: 2px solid #90caf9;
+    border-radius: 0 6px 6px 6px ;
+    padding: 20px;
+    line-height: 1.5;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}

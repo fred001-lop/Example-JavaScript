@@ -8,13 +8,19 @@
 </head>
 <body>
     <div class="tabs">
-        <button class="tab">Home</button>
-        <button class="tab">About</button>
-        <button class="tab">Contact</button>
+        <button class="tab" onclick="openTab('home')">Home</button>
+        <button class="tab" onclick="openTab('about')">About</button>
+        <button class="tab" onclick="openTab('contact')">Contact</button>
     </div>
 
     <div id="home" class="tab-content">Welcome to the homePage!</div>
     <div id="about" class="tab-content" style="display: none;">Learn more about us here.</div>
     <div id="contact" class="tab-content" style="display: none;">Get in touch with us.</div>
+
+
+    <script src="script.js"></script>
 </body>
+
+
+
 </html>
