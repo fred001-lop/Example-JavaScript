@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Facts - Modal Example</title>
+    <link rel="stylesheet" href="/Example 3/style.css">
+</head>
+<body>
+    <h1>Space Facts</h1>
+    <p>Click the button below to learn something cool about space.</p>
+
+    <!-- Buton para abrir modal -->
+     <button onclick="openModal('fact')">Fact 1</button>
+
+    <!-- Cubrir + Contenido de modal -->
+<div id="overlay" class="overlay" onclick="closeModal()">
+    <div id="fact" class="modal">
+      <span class="close-btn" onclick="closeModal()">×</span>
+      <h2>Shooting Stars</h2>
+      <p>Shooting stars are actually tiny meteors burning up as they enter Earth’s atmosphere.</p>
+    </div>
+  </div>
+
+</body>
+</html>
