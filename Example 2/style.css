@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    padding: 20px;
+    color: #333;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.accordion{
+    background: #90caf9;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px; 
+    width: 70%;
+    text-align: left;
+    margin-bottom: 2.5px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s ease;
+
+}
+
+.panel{
+    display: none;
+    padding: 15px;
+    border: 1px solid #90caf6;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background-color: #fff;
+}
